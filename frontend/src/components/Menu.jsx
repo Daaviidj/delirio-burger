@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { burgers, starters, meatOptions, breadOptions } from '../data/mock';
-import { Flame, Leaf } from 'lucide-react';
+import { burgers, starters, desserts, meatOptions, breadOptions } from '../data/mock';
+import { Flame, Leaf, Cake } from 'lucide-react';
 
 const Menu = () => {
   const [activeTab, setActiveTab] = useState('burgers');
@@ -20,16 +20,16 @@ const Menu = () => {
         <div className="text-center mb-16">
           <span className="text-amber-400 uppercase tracking-[0.3em] text-sm font-medium">Nuestra Carta</span>
           <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-4 mb-6">
-            Hamburguesas
+            La Carta
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mx-auto" />
         </div>
 
         {/* Tabs */}
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex justify-center gap-3 sm:gap-4 mb-12 flex-wrap">
           <button
             onClick={() => setActiveTab('burgers')}
-            className={`px-6 py-3 rounded-md font-semibold transition-all duration-300 ${
+            className={`px-4 sm:px-6 py-3 rounded-md font-semibold transition-all duration-300 ${
               activeTab === 'burgers'
                 ? 'bg-amber-500 text-neutral-950'
                 : 'bg-neutral-900 text-neutral-300 hover:bg-neutral-800 hover:text-amber-400'
@@ -39,13 +39,23 @@ const Menu = () => {
           </button>
           <button
             onClick={() => setActiveTab('starters')}
-            className={`px-6 py-3 rounded-md font-semibold transition-all duration-300 ${
+            className={`px-4 sm:px-6 py-3 rounded-md font-semibold transition-all duration-300 ${
               activeTab === 'starters'
                 ? 'bg-amber-500 text-neutral-950'
                 : 'bg-neutral-900 text-neutral-300 hover:bg-neutral-800 hover:text-amber-400'
             }`}
           >
             Entrantes
+          </button>
+          <button
+            onClick={() => setActiveTab('desserts')}
+            className={`px-4 sm:px-6 py-3 rounded-md font-semibold transition-all duration-300 ${
+              activeTab === 'desserts'
+                ? 'bg-amber-500 text-neutral-950'
+                : 'bg-neutral-900 text-neutral-300 hover:bg-neutral-800 hover:text-amber-400'
+            }`}
+          >
+            Postres
           </button>
         </div>
 
@@ -97,6 +107,32 @@ const Menu = () => {
                   </span>
                 </div>
                 <p className="text-neutral-400 leading-relaxed text-sm">{starter.description}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Desserts Grid */}
+        {activeTab === 'desserts' && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {desserts.map((dessert, index) => (
+              <div
+                key={dessert.id}
+                className="group bg-neutral-900/80 rounded-xl p-6 border border-neutral-800 hover:border-amber-500/50 transition-all duration-300 hover:-translate-y-1"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-14 h-14 bg-amber-500/20 rounded-full flex items-center justify-center">
+                    <Cake size={28} className="text-amber-400" />
+                  </div>
+                </div>
+                <div className="text-center">
+                  <h3 className="font-serif text-lg font-bold text-amber-400 mb-2">{dessert.name}</h3>
+                  <p className="text-neutral-400 text-sm mb-3">{dessert.description}</p>
+                  <span className="bg-amber-500/20 text-amber-400 px-4 py-1 rounded-full font-bold text-sm">
+                    {dessert.price.toFixed(2)}€
+                  </span>
+                </div>
               </div>
             ))}
           </div>
