@@ -45,14 +45,11 @@ const Header = () => {
           {/* Logo */}
           <a href="#inicio" onClick={(e) => scrollToSection(e, '#inicio')} className="flex items-center gap-3">
             <div className="flex flex-col items-center">
-              <div className="w-10 h-10 relative">
-                <svg viewBox="0 0 40 40" className="w-full h-full">
-                  {/* Burger icon */}
-                  <ellipse cx="20" cy="12" rx="14" ry="6" fill="none" stroke="#D4A84B" strokeWidth="2"/>
-                  <rect x="6" y="16" width="28" height="4" fill="#C41E3A" rx="1"/>
-                  <ellipse cx="20" cy="26" rx="14" ry="6" fill="none" stroke="#D4A84B" strokeWidth="2"/>
-                </svg>
-              </div>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/2bhxt5q8_image.png" 
+                alt="Delirio Burger" 
+                className="w-12 h-12 object-contain"
+              />
               <span className="font-serif text-2xl font-bold text-amber-400 tracking-wide">Delirio</span>
               <span className="text-xs tracking-[0.3em] text-neutral-300 uppercase -mt-1">Burger</span>
             </div>
