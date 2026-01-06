@@ -1,8 +1,13 @@
 import React from 'react';
-import { Star, MapPin, Clock } from 'lucide-react';
+import { Star, StarHalf, MapPin, Clock } from 'lucide-react';
 import { restaurantInfo } from '../data/mock';
 
 const Hero = () => {
+  // Calculate full stars and half star
+  const fullStars = Math.floor(restaurantInfo.rating);
+  const hasHalfStar = restaurantInfo.rating % 1 >= 0.3;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
   return (
     <section
       id="inicio"
@@ -27,12 +32,28 @@ const Hero = () => {
         <div className="text-center">
           {/* Rating Badge */}
           <div className="inline-flex items-center gap-2 bg-neutral-900/80 backdrop-blur-sm px-4 py-2 rounded-full mb-8 border border-neutral-800">
-            <div className="flex items-center gap-1">
-              {[...Array(5)].map((_, i) => (
+            <div className="flex items-center gap-0.5">
+              {/* Full stars */}
+              {[...Array(fullStars)].map((_, i) => (
                 <Star
-                  key={i}
+                  key={`full-${i}`}
                   size={16}
-                  className={i < Math.floor(restaurantInfo.rating) ? 'text-amber-400 fill-amber-400' : 'text-neutral-600'}
+                  className="text-amber-400 fill-amber-400"
+                />
+              ))}
+              {/* Half star */}
+              {hasHalfStar && (
+                <StarHalf
+                  size={16}
+                  className="text-amber-400 fill-amber-400"
+                />
+              )}
+              {/* Empty stars */}
+              {[...Array(emptyStars)].map((_, i) => (
+                <Star
+                  key={`empty-${i}`}
+                  size={16}
+                  className="text-neutral-600"
                 />
               ))}
             </div>
