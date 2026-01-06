@@ -1,8 +1,13 @@
 import React from 'react';
 import { reviews, restaurantInfo } from '../data/mock';
-import { Star, Quote } from 'lucide-react';
+import { Star, StarHalf, Quote } from 'lucide-react';
 
 const Reviews = () => {
+  // Calculate full stars and half star for overall rating
+  const fullStars = Math.floor(restaurantInfo.rating);
+  const hasHalfStar = restaurantInfo.rating % 1 >= 0.3;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
   return (
     <section id="resenas" className="py-24 bg-neutral-950 relative overflow-hidden">
       {/* Background decorations */}
@@ -20,12 +25,28 @@ const Reviews = () => {
           
           {/* Overall Rating */}
           <div className="inline-flex flex-col items-center bg-neutral-900/80 backdrop-blur-sm px-8 py-6 rounded-2xl border border-neutral-800">
-            <div className="flex items-center gap-2 mb-2">
-              {[...Array(5)].map((_, i) => (
+            <div className="flex items-center gap-1 mb-2">
+              {/* Full stars */}
+              {[...Array(fullStars)].map((_, i) => (
                 <Star
-                  key={i}
+                  key={`full-${i}`}
                   size={28}
-                  className={i < Math.floor(restaurantInfo.rating) ? 'text-amber-400 fill-amber-400' : 'text-neutral-600'}
+                  className="text-amber-400 fill-amber-400"
+                />
+              ))}
+              {/* Half star */}
+              {hasHalfStar && (
+                <StarHalf
+                  size={28}
+                  className="text-amber-400 fill-amber-400"
+                />
+              )}
+              {/* Empty stars */}
+              {[...Array(emptyStars)].map((_, i) => (
+                <Star
+                  key={`empty-${i}`}
+                  size={28}
+                  className="text-neutral-600"
                 />
               ))}
             </div>
