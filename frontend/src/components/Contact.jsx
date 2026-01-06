@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="text-amber-400 uppercase tracking-[0.3em] text-sm font-medium">Encúeéntranos</span>
+          <span className="text-amber-400 uppercase tracking-[0.3em] text-sm font-medium">Encuéntranos</span>
           <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-4 mb-6">
             Contacto
           </h2>
