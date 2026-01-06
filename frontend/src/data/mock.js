@@ -26,10 +26,10 @@ export const schedule = [
 export const burgers = [
   {
     id: 1,
-    name: "DELUXE",
+    name: "DELIRIO",
     price: 15.00,
-    description: "Carne de ternera, bacon, cebolla caramelizada, queso y una salsa especial.",
-    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/3bovieg7_image.png"
+    description: "Carne de ternera, bacon, cebolla caramelizada, queso y salsa blanca especial.",
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/wm11tull_image.png"
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ export const burgers = [
     id: 3,
     name: "CASTIZA",
     price: 15.00,
-    description: "Carne de ternera, lechuga, tomate, pepinillo y queso cheddar.",
+    description: "Carne de ternera, lechuga, tomate, pepinillo, queso cheddar y salsa roja.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/w566aptf_image.png"
   },
   {
@@ -72,6 +72,13 @@ export const burgers = [
     price: 17.50,
     description: "Carne de ternera, huevo a la plancha, bacon crujiente, patatas paja y salsa de trufa.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/waeqq5h8_image.png"
+  },
+  {
+    id: 8,
+    name: "CABRITA",
+    price: 15.50,
+    description: "Carne de ternera, queso de cabra, cebolla crujiente caramelizada y salsa especial.",
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/4xbdgmt0_image.png"
   }
 ];
 
