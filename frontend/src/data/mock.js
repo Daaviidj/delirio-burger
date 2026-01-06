@@ -27,56 +27,56 @@ export const burgers = [
   {
     id: 1,
     name: "DELIRIO",
-    price: 15.00,
+    price: 15.90,
     description: "Carne de ternera, bacon, cebolla caramelizada, queso y salsa blanca especial.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/wm11tull_image.png"
   },
   {
     id: 2,
     name: "ROMA",
-    price: 14.50,
+    price: 16.50,
     description: "Carne de ternera, tomate, lechuga, cebolla morada, bacon, queso cheddar y orégano.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/76136e69_image.png"
   },
   {
     id: 3,
     name: "CASTIZA",
-    price: 15.00,
+    price: 16.90,
     description: "Carne de ternera, lechuga, tomate, pepinillo, queso cheddar y salsa roja.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/w566aptf_image.png"
   },
   {
     id: 4,
     name: "POTENCIA",
-    price: 17.00,
+    price: 17.90,
     description: "Carne de ternera, lechuga, tomate, cebolla, champiñones, bacon, queso y una salsa secreta.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/z85plogw_image.png"
   },
   {
     id: 5,
     name: "AL FALLO",
-    price: 15.00,
+    price: 15.90,
     description: "Carne de ternera, cebolla, champiñones, queso, jalapeños y salsa especial.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/q5peybo7_image.png"
   },
   {
     id: 6,
     name: "MEXICANA",
-    price: 15.50,
+    price: 16.50,
     description: "Carne de ternera con guacamole, pico de gallo, jalapeños y salsa chipotle.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/ehe47va1_image.png"
   },
   {
     id: 7,
-    name: "TRUFA",
-    price: 17.50,
+    name: "TRUFADA",
+    price: 16.50,
     description: "Carne de ternera, huevo a la plancha, bacon crujiente, patatas paja y salsa de trufa.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/waeqq5h8_image.png"
   },
   {
     id: 8,
     name: "CABRITA",
-    price: 15.50,
+    price: 14.90,
     description: "Carne de ternera, queso de cabra, cebolla crujiente caramelizada y salsa especial.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/4xbdgmt0_image.png"
   }
