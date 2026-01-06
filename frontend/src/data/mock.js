@@ -9,7 +9,7 @@ export const restaurantInfo = {
   phone: "616 52 76 85",
   address: "Blvr. de Indalecio Prieto, 6, Vicálvaro, 28032 Madrid",
   instagram: "burgerdelirio",
-  uberEatsUrl: "https://www.ubereats.com/es/store/delirio-burger",
+  uberEatsUrl: "https://www.ubereats.com/es/store/delirio-burger-madrid/JNzSEsnsVdKuKIaEtJUK8Q?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkNhbGxlJTIwZGUlMjBDb3JkZWwlMjBkZSUyMFBhdm9uZXMlMjAyOEIlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjI5MTljODc4Zi1mMzVkLTdkOTYtMWRlZi1iMTA1NTNjMjBiNzIlMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIydWJlcl9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTQwLjM5OTg0JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTMuNjE5MjYlN0Q%3D",
   coordinates: "C93H+8Q Madrid"
 };
 
