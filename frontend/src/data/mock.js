@@ -29,7 +29,7 @@ export const burgers = [
     name: "DELUXE",
     price: 15.00,
     description: "Carne de ternera, bacon, cebolla caramelizada, queso y una salsa especial.",
-    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/kl8ux8oe_image.png"
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/3bovieg7_image.png"
   },
   {
     id: 2,
