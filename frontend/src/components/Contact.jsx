@@ -26,7 +26,7 @@ const Contact = () => {
           {/* Map */}
           <div className="relative rounded-2xl overflow-hidden h-[400px] lg:h-full min-h-[400px] bg-neutral-900">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.1!2d-3.6!3d40.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI0JzAwLjAiTiAzwrAzNicwMC4wIlc!5e0!3m2!1ses!2ses!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.5!2d-3.6089!3d40.3936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDIzJzM3LjAiTiAzwrAzNiczMy4yIlc!5e0!3m2!1ses!2ses!4v1699999999999!5m2!1ses!2ses"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -34,7 +34,7 @@ const Contact = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Ubicación de Delirio Burger"
-              className="grayscale contrast-125 opacity-80"
+              className="opacity-90"
             />
             <div className="absolute inset-0 pointer-events-none border-2 border-amber-500/20 rounded-2xl" />
           </div>
