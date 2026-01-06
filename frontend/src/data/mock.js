@@ -80,31 +80,36 @@ export const starters = [
     id: 1,
     name: "Tacos de pollo",
     price: 12.50,
-    description: "Crujientes tacos de pollo marinado con salsa Delirio."
+    description: "Crujientes tacos de pollo marinado con salsa Delirio.",
+    image: null
   },
   {
     id: 2,
     name: "Nachos 'Cheesepa'",
     price: 13.50,
-    description: "Nachos de tres quesos con totopos y salsa de la casa."
+    description: "Nachos de tres quesos con totopos y salsa de la casa.",
+    image: null
   },
   {
     id: 3,
     name: "Crispy Chicken Wings",
     price: 13.50,
-    description: "Pollo crujiente al estilo de Nueva Orleans con salsa agria y cilantro."
+    description: "Pollo crujiente al estilo de Nueva Orleans con salsa agria y cilantro.",
+    image: null
   },
   {
     id: 4,
     name: "Pulled Cheese Fries",
     price: 11.50,
-    description: "Patatas crujientes con pulled pork tierno, tocino y salsa 'cheesey' de la casa."
+    description: "Patatas crujientes con pulled pork tierno, tocino y salsa 'cheesey' de la casa.",
+    image: null
   },
   {
     id: 5,
-    name: "Nachos 'Delirio'",
+    name: "Totopos 'Delirio'",
     price: 13.00,
-    description: "Nachos especiales con la receta secreta de Delirio."
+    description: "Nachos especiales con la receta secreta de Delirio.",
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/jw7ti89e_image.png"
   }
 ];
 
