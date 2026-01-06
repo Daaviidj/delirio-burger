@@ -36,14 +36,14 @@ export const burgers = [
     name: "ROMA",
     price: 14.50,
     description: "Carne de ternera, tomate, lechuga, cebolla morada, bacon, queso cheddar y orégano.",
-    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/3bovieg7_image.png"
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/76136e69_image.png"
   },
   {
     id: 3,
     name: "CASTIZA",
     price: 15.00,
     description: "Carne de ternera, lechuga, tomate, pepinillo y queso cheddar.",
-    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/q5peybo7_image.png"
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/w566aptf_image.png"
   },
   {
     id: 4,
@@ -54,17 +54,24 @@ export const burgers = [
   },
   {
     id: 5,
-    name: "ME FALLO",
+    name: "AL FALLO",
     price: 15.00,
     description: "Carne de ternera, cebolla, champiñones, queso, jalapeños y salsa especial.",
-    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/kl8ux8oe_image.png"
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/q5peybo7_image.png"
   },
   {
     id: 6,
     name: "MEXICANA",
     price: 15.50,
     description: "Carne de ternera con guacamole, pico de gallo, jalapeños y salsa chipotle.",
-    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/3bovieg7_image.png"
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/ehe47va1_image.png"
+  },
+  {
+    id: 7,
+    name: "TRUFA",
+    price: 17.50,
+    description: "Carne de ternera, huevo a la plancha, bacon crujiente, patatas paja y salsa de trufa.",
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/waeqq5h8_image.png"
   }
 ];
 
