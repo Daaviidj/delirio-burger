@@ -170,26 +170,44 @@ export const galleryImages = [
   },
   {
     id: 2,
-    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/z85plogw_image.png",
-    alt: "Hamburguesa con patatas",
+    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/waeqq5h8_image.png",
+    alt: "Hamburguesa Trufa con huevo",
     category: "platos"
   },
   {
     id: 3,
-    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/kl8ux8oe_image.png",
-    alt: "Hamburguesa Deluxe",
+    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/76136e69_image.png",
+    alt: "Hamburguesa Roma",
     category: "platos"
   },
   {
     id: 4,
-    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/3bovieg7_image.png",
-    alt: "Hamburguesa con pan negro",
+    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/ehe47va1_image.png",
+    alt: "Hamburguesa Mexicana",
     category: "platos"
   },
   {
     id: 5,
+    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/w566aptf_image.png",
+    alt: "Hamburguesa Castiza",
+    category: "platos"
+  },
+  {
+    id: 6,
+    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/jw7ti89e_image.png",
+    alt: "Totopos Delirio",
+    category: "platos"
+  },
+  {
+    id: 7,
+    src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/z85plogw_image.png",
+    alt: "Hamburguesa Potencia",
+    category: "platos"
+  },
+  {
+    id: 8,
     src: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/q5peybo7_image.png",
-    alt: "Hamburguesa BBQ",
+    alt: "Hamburguesa Al Fallo",
     category: "platos"
   }
 ];
