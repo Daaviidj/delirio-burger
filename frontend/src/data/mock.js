@@ -85,38 +85,52 @@ export const burgers = [
 export const starters = [
   {
     id: 1,
-    name: "Tacos de pollo",
+    name: "Tiras de Pollo",
     price: 12.50,
-    description: "Crujientes tacos de pollo marinado con salsa Delirio.",
+    description: "Crujientes tiras de pollo marinado con salsa Delirio.",
     image: null
   },
   {
     id: 2,
-    name: "Nachos 'Cheesepa'",
-    price: 13.50,
-    description: "Nachos de tres quesos con totopos y salsa de la casa.",
+    name: "Tequeños",
+    price: 10.50,
+    description: "Deliciosos palitos de queso crujientes con salsa especial.",
     image: null
   },
   {
     id: 3,
-    name: "Crispy Chicken Wings",
+    name: "Nachos Totopos",
     price: 13.50,
-    description: "Pollo crujiente al estilo de Nueva Orleans con salsa agria y cilantro.",
-    image: null
+    description: "Nachos crujientes con queso fundido, jalapeños y salsa de la casa.",
+    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/jw7ti89e_image.png"
   },
   {
     id: 4,
+    name: "Alitas de Pollo",
+    price: 13.50,
+    description: "Alitas crujientes al estilo de Nueva Orleans con salsa agria y cilantro.",
+    image: null
+  },
+  {
+    id: 5,
     name: "Pulled Cheese Fries",
     price: 11.50,
     description: "Patatas crujientes con pulled pork tierno, tocino y salsa 'cheesey' de la casa.",
     image: null
   },
   {
-    id: 5,
-    name: "Totopos 'Delirio'",
-    price: 13.00,
-    description: "Nachos especiales con la receta secreta de Delirio.",
-    image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/jw7ti89e_image.png"
+    id: 6,
+    name: "Bacon Cheese Fries",
+    price: 12.00,
+    description: "Patatas fritas con bacon crujiente y queso cheddar fundido.",
+    image: null
+  },
+  {
+    id: 7,
+    name: "Trufa Deluxe Fries",
+    price: 14.00,
+    description: "Patatas fritas con salsa de trufa, parmesano y huevo a la plancha.",
+    image: null
   }
 ];
 
