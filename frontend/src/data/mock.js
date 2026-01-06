@@ -86,51 +86,78 @@ export const starters = [
   {
     id: 1,
     name: "Tiras de Pollo",
-    price: 12.50,
+    price: 12.90,
     description: "Crujientes tiras de pollo marinado con salsa Delirio.",
     image: null
   },
   {
     id: 2,
     name: "Tequeños",
-    price: 10.50,
+    price: 9.00,
     description: "Deliciosos palitos de queso crujientes con salsa especial.",
     image: null
   },
   {
     id: 3,
     name: "Nachos Totopos",
-    price: 13.50,
+    price: 13.90,
     description: "Nachos crujientes con queso fundido, jalapeños y salsa de la casa.",
     image: "https://customer-assets.emergentagent.com/job_27ec220e-d9e5-4640-8d92-60a6b612c860/artifacts/jw7ti89e_image.png"
   },
   {
     id: 4,
     name: "Alitas de Pollo",
-    price: 13.50,
+    price: 10.50,
     description: "Alitas crujientes al estilo de Nueva Orleans con salsa agria y cilantro.",
     image: null
   },
   {
     id: 5,
     name: "Pulled Cheese Fries",
-    price: 11.50,
+    price: 11.90,
     description: "Patatas crujientes con pulled pork tierno, tocino y salsa 'cheesey' de la casa.",
     image: null
   },
   {
     id: 6,
     name: "Bacon Cheese Fries",
-    price: 12.00,
+    price: 10.90,
     description: "Patatas fritas con bacon crujiente y queso cheddar fundido.",
     image: null
   },
   {
     id: 7,
     name: "Trufa Deluxe Fries",
-    price: 14.00,
+    price: 12.90,
     description: "Patatas fritas con salsa de trufa, parmesano y huevo a la plancha.",
     image: null
+  }
+];
+
+export const desserts = [
+  {
+    id: 1,
+    name: "Tarta de Queso",
+    price: 7.00,
+    description: "Deliciosa tarta de queso casera cremosa."
+  },
+  {
+    id: 2,
+    name: "Tarta de Queso Lotus",
+    price: 7.50,
+    description: "Tarta de queso con base de galleta Lotus caramelizada."
+  },
+  {
+    id: 3,
+    name: "Coulant de Chocolate",
+    price: 7.00,
+    description: "Coulant de chocolate caliente con helado de vainilla."
+  },
+  {
+    id: 4,
+    name: "Crepe con Nutella",
+    price: 7.50,
+    description: "Crepe casero con Nutella y nata montada."
   }
 ];
 
