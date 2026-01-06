@@ -51,7 +51,7 @@ const Contact = () => {
                   <h3 className="text-white font-semibold text-lg mb-2">Dirección</h3>
                   <p className="text-neutral-300">{restaurantInfo.address}</p>
                   <a
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurantInfo.address)}`}
+                    href="https://www.google.com/maps/place/Delirio+Burger/@40.4033633,-3.6231785,17z/data=!4m15!1m8!3m7!1s0xd422577c8727f03:0x38ede1b162619314!2sBlvr.+de+Indalecio+Prieto,+6,+Vic%C3%A1lvaro,+28032+Madrid!3b1!8m2!3d40.4033592!4d-3.6206036!16s%2Fg%2F11sy4yq24m!3m5!1s0xd4225bfd68fb6bf:0x8e25aa217e37bb92!8m2!3d40.4033592!4d-3.6206036!16s%2Fg%2F11x2kh59tj?entry=ttu"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 mt-3 font-medium transition-colors"
