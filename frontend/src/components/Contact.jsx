@@ -26,7 +26,7 @@ const Contact = () => {
           {/* Map */}
           <div className="relative rounded-2xl overflow-hidden h-[400px] lg:h-full min-h-[400px] bg-neutral-900">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.5!2d-3.6231785!3d40.4033633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4225bfd68fb6bf%3A0x8e25aa217e37bb92!2sDelirio%20Burger!5e0!3m2!1ses!2ses!4v1699999999999!5m2!1ses!2ses"
+              src="https://maps.app.goo.gl/5e8kvKo39qcLzHgk6"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -51,7 +51,7 @@ const Contact = () => {
                   <h3 className="text-white font-semibold text-lg mb-2">Dirección</h3>
                   <p className="text-neutral-300">{restaurantInfo.address}</p>
                   <a
-                    href="https://www.google.com/maps/place/Delirio+Burger/@40.4033633,-3.6231785,17z/data=!4m15!1m8!3m7!1s0xd422577c8727f03:0x38ede1b162619314!2sBlvr.+de+Indalecio+Prieto,+6,+Vic%C3%A1lvaro,+28032+Madrid!3b1!8m2!3d40.4033592!4d-3.6206036!16s%2Fg%2F11sy4yq24m!3m5!1s0xd4225bfd68fb6bf:0x8e25aa217e37bb92!8m2!3d40.4033592!4d-3.6206036!16s%2Fg%2F11x2kh59tj?entry=ttu"
+                    href="https://maps.app.goo.gl/5e8kvKo39qcLzHgk6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 mt-3 font-medium transition-colors"
